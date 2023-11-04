@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(95, 23, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+  user-select: none;
+}
+.container h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.container .time{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    
+   
+}
+.container .time span{
+    width: 80px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    
+    
+}
+.time span.colomn{
+    width: 10px;
+   
+}
+.time span.ms-colomn
+{
+    width: 10px;
+    color: rgb(95, 23, 168);
+}
+.time span.msec{
+  
+    color: rgb(95, 23, 168);
+}
+.buttons{
+    text-align: center;
+    margin-top: 38px;
+}
+ .btn{
+    background: #fff;
+    color: rgb(95, 23, 168);
+    font-size: 24px;
+    font-weight: 500;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: button 0.3s;
+    cursor: pointer;
+    
+ }
+ .act{
+  
+    color:#fff;
+    background-color: rgb(95, 23, 168);
+    border: 2px solid rgb(68, 4, 136);
+    transform: scale(1.2);
+ }
+
+
+
+
+
